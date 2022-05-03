@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="gestion_stock.jnlp">
+    <information>
+        <title>gestion_stock</title>
+        <vendor>NATHAN</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="9.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="gestion_stock.jar" size="6637" download="eager"/>
+        <jar href="lib\mysql-connector-java-8.0.23.jar" size="2415211" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="gestion_stock.Gestion_stock" name="Gestion_stock"/>
+</jnlp>
+
